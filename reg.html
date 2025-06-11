@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Survey Form</h2>
+  <form>
+    <label >Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label >Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label>Upload File:</label><br> 
+    <input type="file" id="file" name="file"><br><br>
+
+    <label></label>Which option best describes your current role?</label><br>
+    <select >
+      <option value="student">Student</option>
+      <option value="working">Working Professional</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label>How likely is it that you would recommend this program to a friend?</label><br>
+    <input type="radio" name="recommend" value="definitely"> Definitely<br>
+    <input type="radio" name="recommend" value="maybe"> Maybe<br>
+    <input type="radio" name="recommend" value="notsure"> Not sure<br><br>
+
+    <label>What do you like most here?</label><br>
+    <select>
+      <option value="">Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+    </select><br><br>
+
+    <label>Things that should be improved in the future (Check all that apply):</label><br>
+    <input type="checkbox" name="improve" value="frontend"> Front-end Projects<br>
+    <input type="checkbox" name="improve" value="backend"> Back-end Projects<br>
+    <input type="checkbox" name="improve" value="dataviz"> Data Visualization<br><br>
+
+    <label>Any Comments or Suggestions?</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
